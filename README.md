@@ -1,22 +1,22 @@
 # API-Automation-on-Dmoney-API-using-Axios
-**Axios is a popular JavaScript library used for making HTTP requests, including API automation. It's simple, easy to use, supports multiple platforms, has interceptor support, uses Promises, and can handle response data in different formats.**
+
+**Axios is a popular JavaScript library that is commonly used for making HTTP requests from a web browser or Node.js. Axios makes it easy to send asynchronous HTTP requests to REST endpoints and perform CRUD (Create, Read, Update, Delete) operations on resources.**
+
+**Axios is often used for API automation because it provides a simple and elegant API for making HTTP requests and handling responses. It supports various features like request and response interceptors, automatic transformation of JSON data, cancellation of requests, and much more.**
 
 ## Technology Used:
 
-- Rest Assured
-- commons-configuration
-- Jackson Databind
-- TestNG
-- Java
-- Gradle
-- intellij idea
-- Allure
+- Axios
+- Java Script
+- Visual Studio Code
+- Mochawesome
 
 ## How to run this project:
 
 - Clone this project
-- hit the following command: ```gradle clean test```
-- for Allure Report hit: ```allure generate allure-results --clean -o allure-report``` and ```allure serve allure-results```
+- hit the following command: ```npm test file .\test\*.test.js```
+- for Mochawesome Report: ```--reporter mochawesome --reporter-options reportDir=Reports,reportFilename=report.html```
+
 
 ## Project Scenerio: 
 
